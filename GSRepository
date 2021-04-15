@@ -1,0 +1,19 @@
+{
+  "name": "EmoTracker Official Packages",
+  "packages": [
+    {
+      "name": "Golden Sun Randomizer Tracker",
+      "author": "DerrickGnC",
+      "version": "1.0",
+      "uid": "GS_MapTracker_DerrickGnC",
+      "link": "https://github.com/DerrickGnC/GoldenSunTracker.git"
+    },
+    {
+      "name": "Golden Sun Randomizer Tracker - Item Only",
+      "author": "DerrickGnC",
+      "version": "1.0",
+      "uid": "GS_ItemOnlyr_DerrickGnC",
+      "link": "http://emosaru.com/emotracker/packages/alttprando_itemsonly_emosaru.zip"
+    }
+  ]
+}
