@@ -4,15 +4,10 @@
     {
       "name": "Golden Sun Randomizer Tracker",
       "author": "DerrickGnC",
+      'game_name": Golden Sun Randomizer
       "version": "1.0",
       "uid": "GS_MapTracker_DerrickGnC",
       "link": "https://github.com/DerrickGnC/GoldenSunTracker/archive/refs/tags/1.0.zip"
-    },
-    {
-      "name": "Golden Sun Randomizer Tracker - Item Only",
-      "author": "DerrickGnC",
-      "version": "1.0",
-      "uid": "GS_ItemOnlyr_DerrickGnC"
     }
   ]
 }
