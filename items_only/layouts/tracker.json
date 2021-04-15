@@ -1,0 +1,66 @@
+{
+	"shared_item_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows":
+						[
+							[ "Isaac", "Garet", "Ivan", "Mia" ],
+							[ "Catch", "Bottle", "DragonEye","Force", "Douse", "Frost" ],
+							[ "Lift", "Ticket", "Charm", "Draught", "Cloak", "Halt" ],
+							[ "CellKey", "RedKey", "BlueKey", "Carry", "BlackOrb", "Bone"],
+							[ "Growth","Move", "MindRead","Whirlwind", "Ply", "Reveal" ],
+							[ "Venus", "Mars", "Jupiter", "Mercury" ]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows":
+						[
+							[ "Banditboss", "Tretboss", "SaturosMLboss","Apeboss", "Hydrosboss", "Manticoreboss" ],
+							[ "Krakenboss", "Toadonpaboss", "Stormboss", "Tempestboss","Deadbeardboss", "Fusionboss" ]
+						]
+					}
+				]
+			}
+		]
+	},
+	"tracker_capture_item":
+	{
+		"type": "container",
+		"content":
+		{
+			"type": "layout",
+			"key": "shared_item_grid"
+		}
+	},
+	"tracker_default":
+	{
+		"type": "container",
+		//"width": 470,
+		//"height": 155,
+		"background": "#101010",
+		"content":
+		{
+			"type": "layout",
+			"dropshadow": true,
+			"margin": 1,
+			"key": "shared_item_grid"
+		}
+	}
+}
